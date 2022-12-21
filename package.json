@@ -1,0 +1,43 @@
+{
+	"name": "vite-plugin-xq-multi-input",
+	"version": "1.0.7",
+	"description": "A vite auto config multi html input plugin.一个根据入口目录扫描目录下的html文件并自动配置为多个html入口的Vite插件。",
+	"type": "module",
+	"files": [
+		"dist"
+	],
+	"main": "./dist/index.mjs",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.mjs",
+			"require": "./dist/index.cjs"
+		}
+	},
+	"scripts": {
+		"build": "npx unbuild && npx xq-banner"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/xqkeji/vite-plugin-xq-multi-input.git"
+	},
+	"keywords": [
+		"vite",
+		"vite-plugin",
+		"multi-html",
+		"multi-input",
+		"auto-config"
+	],
+	"author": "xqkeji.cn",
+	"license": "SSPL-1.0",
+	"homepage": "http://xqkeji.cn/",
+	"devDependencies": {
+		"@types/node": "^18.11.0",
+		"typescript": "^4.8.4",
+		"unbuild": "^0.9.4",
+		"vite": "^3.1.8",
+		"xq-banner": "^1.0.5"
+	}
+}
