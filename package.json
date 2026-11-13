@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-xq-multi-input",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A vite plugin that scans html files under entry directories and auto-configures multiple html inputs.一个根据入口目录扫描 html 文件并自动配置多个 html 入口的 Vite 插件。",
   "type": "module",
   "files": [
